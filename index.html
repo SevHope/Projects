@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+    <legend>Общая информация</legend>
+    <div>
+        <label for="lastname">Фамилия</label>
+        <input id="lastname" type="text" name="lastname" placeholder="Иванов">
+    </div>
+    <div>
+        <label for="name">Имя</label>
+        <input id="name" type="text" name="name" placeholder="Иван">
+    </div>
+    <div>
+        <label for="second_name">Отчество</label>
+        <input id="second_name" type="text" name="second_name" placeholder="Иванович">
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input id="email" type="text" name="email" placeholder="Email">
+    </div>
+</fieldset>
+<fieldset>
+        <legend>Пол</legend>
+        <div>
+        <input type="radio" id="contactChoice" name="sex" value="male">
+        <label for="contactChoice">М</label>
+        <input type="radio" id="contactChoice" name="sex" value="female">
+        <label for="contactChoice">Ж</label>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>Хобби</legend>
+    <div>
+    <input type="checkbox" id="Choice1" name="hobby" value="paint">
+    <label for="Choice1">Рисование</label>
+    <input type="checkbox" id="Choice2" name="hobby" value="read">
+    <label for="Choice2">Чтение</label>
+    <input type="checkbox" id="Choice3" name="hobby" value="knitt">
+    <label for="Choice3">Вязание</label>
+    <input type="checkbox" id="Choice4" name="hobby" value="cook">
+    <label for="Choice4">Кулинария</label>
+</div>
+</fieldset>
+<div>
+<button type="submit">Отправить</button>
+<button type="reset">Очистить</button>
+    </div>
+</form>
+</body>
+</html>
